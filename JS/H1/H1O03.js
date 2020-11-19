@@ -8,11 +8,10 @@ function setup() {
 
 function draw() {
   noStroke();
-  fill(0,0,255,0.3);
-  fill('red');
+  fill(200,25,50,0.3);
   rect(0,150,450,150);
-  fill(0,128,0);
   rect(0,0,150,450);
-  fill(0,0,225);  
   rect(75,0,375,450);
+  ellipse(450,225,450);
+  triangle(225,0,225,450,450,225);
 }
