@@ -15,7 +15,7 @@ Als je tevreden bent of aan het eind van het les zit, verplaats je een nieuwe ve
 
 De standaard preview is handig, maar fullscreen is vaak fijner. Typ daarvoor in de console:
 
-python3 -m http.server 3000 &
+
 (en druk op enter)
 
 Na korte tijd verschijnt een blauw menuutje: kies daar voor "Open Browser".
