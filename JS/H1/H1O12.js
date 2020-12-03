@@ -12,7 +12,9 @@ function draw() {
   background('lavender');
   fill('black');
   text("mouseX:" + round(mouseX) + " mouseY:" + round(mouseY),10,20);
-  text("xJOS:" + xJOS + " yJOS:" + yJOS,300,20);
+  
+  // text("xJOS:" + xJOS + " yJOS:" + yJOS,300,20);
+  
   translate(mouseX,mouseY);
   
   // in de volgende regels wordt JOS getekend
@@ -36,6 +38,7 @@ function draw() {
   pop();
   // einde tekenen JOS
   
-  xJOS--;
-  yJOS -= 2;
+  // xJOS--;
+  // yJOS -= 2;
+  
 }

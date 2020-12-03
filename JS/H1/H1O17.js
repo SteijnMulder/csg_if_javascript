@@ -14,10 +14,12 @@ function draw() {
   fill('wheat');
   rect(0,250,width,height - 250);  
 
-  tekenHuis();
-
   tekenBoom(700);
   tekenBoom(900);
+  tekenBoom(50)
+  tekenBoom(150)
+  tekenBoom(250)
+  tekenHuis();
 }
 
 function tekenHuis() {
